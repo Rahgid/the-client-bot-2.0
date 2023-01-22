@@ -191,7 +191,7 @@ function weatherData(embed, data, cached=true) {
 
 		if (data.hasOwnProperty('dt')) {
 			if (data.hasOwnProperty('timezone')) {
-				let time = data.dt;// + data.timezone;
+				let time = data.dt + data.timezone;
 
 				let date = new Date(time * 1000); // convert seconds to ms
 
