@@ -1,0 +1,23 @@
+{
+  "name": "client-2",
+  "version": "0.0.1",
+  "description": "like the client but newer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dillon",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.2.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  },
+  "nodemonConfig": {
+    "ignore": ["data/uw_weather.json"]
+  }
+}
